@@ -8,7 +8,8 @@
             :url "http://www.opensource.org/licenses/mit-license.php"
             :distribution :repo}
   :dependencies [[joda-time "2.9.7"]
-                 [org.clojure/clojure "1.8.0" :scope "provided"]]
+                 [org.clojure/core.typed "0.4.2-SNAPSHOT"]
+                 [org.clojure/clojure "1.9.0-beta2" :scope "provided"]]
   :min-lein-version "2.0.0"
   :global-vars {*warn-on-reflection* true}
   :profiles {:dev {:dependencies [[org.clojure/java.jdbc "0.6.1"]]
